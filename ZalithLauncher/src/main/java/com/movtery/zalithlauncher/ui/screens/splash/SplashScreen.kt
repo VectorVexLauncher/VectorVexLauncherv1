@@ -18,8 +18,8 @@
 
 package com.movtery.zalithlauncher.ui.screens.splash
 
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
+import androidx.compose.ui.res.stringResource
+import com.movtery.zalithlauncher.R
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -89,7 +89,7 @@ private fun TopBar(
         ) {
             Text(
                 modifier = Modifier.align(Alignment.CenterVertically),
-                text = BuildKeys.LAUNCHER_NAME
+                text = "${BuildKeys.LAUNCHER_NAME} - ${stringResource(R.string.unofficial_modified_version)}"
             )
         }
     }
