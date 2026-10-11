@@ -64,7 +64,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = zalithPackageName
+        applicationId = com.vectorvex.launcher1
         applicationIdSuffix = ".v2"
         minSdk = 26
         targetSdk = 34
